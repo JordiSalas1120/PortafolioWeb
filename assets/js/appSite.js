@@ -28,7 +28,7 @@ function crearGaleria(){
         const imagen = document.createElement('picture');
         imagen.classList.add('contenedor');
         imagen.innerHTML =
-        `<a href=${link[l]}> <img class="imagen" loading="lazy" src="assets/sitios/${i}.png" alt="imagen de la galeria">
+        `<a href=${link[l]}> <img class="imagen" loading="lazy" src="assets/sitios/${i}.avif" alt="imagen de la galeria">
         </a>`;
         
 
