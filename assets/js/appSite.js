@@ -23,7 +23,7 @@ function crearGaleria(){
     const galeria = document.querySelector('.galeria');
     var l = 0;
     for(let i = 1; i <= 9; i++){
-    	
+
         let link = Object.values(links);
         const imagen = document.createElement('picture');
         imagen.classList.add('contenedor');
