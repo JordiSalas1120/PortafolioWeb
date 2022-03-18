@@ -29,7 +29,8 @@ function crearGaleria(){
         imagen.classList.add('contenedor');
         imagen.innerHTML =
         `<a href=${link[l]}> <img class="imagen" loading="lazy" src="assets/sitios/${i}.avif" alt="imagen de la galeria">
-        </a>`;
+        </a>
+        `;
         
 
         galeria.appendChild(imagen);
