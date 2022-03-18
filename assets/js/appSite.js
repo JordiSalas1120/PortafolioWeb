@@ -38,4 +38,4 @@ function crearGaleria(){
         l = l + 1; 
     }
     
-}
+}//ajustar
