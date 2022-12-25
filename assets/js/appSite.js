@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function(){
     	crearGaleria();
-	iniciarApp();
+	
 
 });
 
@@ -16,11 +16,7 @@ const links = {
 	8:"https://blog-de-recetas-de-cafe.netlify.app/",
     9:"https://calculadora-jordi.netlify.app/"
 }
-function iniciarApp(){
-    
-    crearGaleria();
-    
-}
+
 function crearGaleria(){
     const galeria = document.querySelector('.galeria');
     var l = 0;
