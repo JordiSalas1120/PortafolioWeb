@@ -1,6 +1,8 @@
 
 document.addEventListener('DOMContentLoaded', function(){
-    iniciarApp();
+    	crearGaleria();
+	iniciarApp();
+
 });
 
 const links = {
